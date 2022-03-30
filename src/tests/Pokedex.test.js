@@ -20,13 +20,6 @@ describe('Testando Pokedex', () => {
     renderWithRouter(<App />);
     const button = screen.getByRole('button', { name: /Próximo pokémon/i });
     expect(button).toBeInTheDocument();
-
-    // userEvent.click(button);
-
-    // const titleFavoritePokémons = await screen.findByRole(
-    //   'button', { name: /Favorite pokémons/i },
-    // );
-    // expect(titleFavoritePokémons).toBeInTheDocument();
   });
 
   test('Teste se é mostrado apenas um Pokémon por vez', () => {
