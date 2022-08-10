@@ -1,16 +1,18 @@
-# 🚧 README em construção 🚧
+# Projeto React Testing Library
 
-<!-- Olá, Tryber!
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
 
-É essencial que você preencha esse documento por conta própria, ok?
+## O que foi desenvolvido
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
+Neste projeto, através de uma aplicação React já criada e configurada (Trybe), foi utilizado o [`Jest`](https://jestjs.io/) e a biblioteca [`React Testing Library`](https://testing-library.com/) (também já instaladas e configuradas) para escrever os testes.
 
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
+---
 
--->
+## Habilidades
+
+* Utilizar os seletores (queries) da React-Testing-Library em testes automatizados.
+* Simular eventos com a React-Testing-Library em testes automatizados.
+* Testar fluxos lógicos assíncronos com a React-Testing-Library.
+* Escrever testes que permitam a refatoração da estrutura dos componentes da aplicação sem necessidade de serem alterados.
+* Criar mocks de APIs utilizando fetch.
+* Testar inputs.
